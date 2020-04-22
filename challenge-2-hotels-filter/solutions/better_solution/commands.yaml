@@ -1,0 +1,4 @@
+setup-env-command: pip install -r requirements.txt
+etl-command: python ETL.py
+process-command: curl http://127.0.0.1:5112/
+cleanup-command: python cleanup.py
