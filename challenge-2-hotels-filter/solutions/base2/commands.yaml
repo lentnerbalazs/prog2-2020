@@ -1,0 +1,3 @@
+setup-env-command: pip install -r requirements.txt
+etl-command: python ETL.py
+process-command: python process.py
